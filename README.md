@@ -50,7 +50,8 @@ console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
 
 Візьми код нижче з ініціалізацією екземпляра й викликами методів і встав його після оголошення класу для перевірки коректності роботи. У консоль будуть виведені результати їх роботи. Будь ласка, нічого там не змінюй.
 
-```const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
+```
+const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
 console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 
 storage.addItem("Droid");
@@ -78,7 +79,8 @@ console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
 
 Візьми код нижче з ініціалізацією екземпляра й викликами методів і встав його після оголошення класу для перевірки коректності роботи. У консоль будуть виведені результати їх роботи. Будь ласка, нічого там не змінюй.
 
-```const builder = new StringBuilder(".");
+```
+const builder = new StringBuilder(".");
 console.log(builder.getValue()); // "."
 builder.padStart("^");
 console.log(builder.getValue()); // "^."
